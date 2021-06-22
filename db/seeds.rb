@@ -24,7 +24,8 @@ Character.create([
         species: "human",
         special_feature: "green jacket",
         color: "white",
-        image: "https://fostershomeforimaginaryfriends.fandom.com/wiki/Frankie_Foster?file=Frankie_Foster.png",
+        image: "https://static.wikia.nocookie.net/fhif/images/e/e8/Frankie_Foster.png",
+        likes: rand(1..100),
         show_id: 1
     },
     {
@@ -32,7 +33,8 @@ Character.create([
         species: "human",
         special_feature: "head",
         color: "tan",
-        image: "https://fostershomeforimaginaryfriends.fandom.com/wiki/Mac?file=Fosters-home-character-mac.png",
+        image: "https://static.wikia.nocookie.net/fhif/images/5/56/Fosters-home-character-mac.png",
+        likes: rand(1..100),
         show_id: 1
     },
     {
@@ -40,7 +42,8 @@ Character.create([
         species: "imaginary friend",
         special_feature: "big eyes",
         color: "blue",
-        image: "https://fostershomeforimaginaryfriends.fandom.com/wiki/Bloo?file=Fosters-home-character-bloo.png",
+        image: "https://static.wikia.nocookie.net/fhif/images/7/72/Fosters-home-character-bloo.png",
+        likes: rand(1..100),
         show_id: 1
     },
     {
@@ -48,7 +51,8 @@ Character.create([
         species: "imaginary friend",
         special_feature: "palm tree head",
         color: "multicolor",
-        image: "https://fostershomeforimaginaryfriends.fandom.com/wiki/Coco?file=Fosters-home-character-coco.png",
+        image: "https://static.wikia.nocookie.net/fhif/images/3/38/Fosters-home-character-coco.png",
+        likes: rand(1..100),
         show_id: 1
     },
     {
@@ -56,7 +60,8 @@ Character.create([
         species: "imaginary friend",
         special_feature: "one arm",
         color: "red",
-        image: "https://fostershomeforimaginaryfriends.fandom.com/wiki/Wilt?file=Fosters-home-character-wilt.png",
+        image: "https://static.wikia.nocookie.net/fhif/images/e/e3/Fosters-home-character-wilt.png",
+        likes: rand(1..100),
         show_id: 1
     },
     {
@@ -64,7 +69,8 @@ Character.create([
         species: "imaginary friend",
         special_feature: "big teeth and horns",
         color: "purple",
-        image: "https://fostershomeforimaginaryfriends.fandom.com/wiki/Eduardo?file=Fosters-home-character-eduardo.png",
+        image: "https://static.wikia.nocookie.net/fhif/images/2/2c/Fosters-home-character-eduardo.png",
+        likes: rand(1..100),
         show_id: 1
     },
     {
@@ -72,7 +78,8 @@ Character.create([
         species: "human",
         special_feature: "oval head and glasses",
         color: "red",
-        image: "https://knd.fandom.com/wiki/Numbuh_1?file=Numbuh_1.jpg",
+        image: "https://static.wikia.nocookie.net/knd/images/4/4d/Numbuh_1.jpg",
+        likes: rand(1..100),
         show_id: 2
     },
     {
@@ -80,7 +87,8 @@ Character.create([
         species: "human",
         special_feature: "aviator hat",
         color: "blue",
-        image: "https://knd.fandom.com/wiki/Numbuh_2?file=Numbuh_2.jpg",
+        image: "https://static.wikia.nocookie.net/knd/images/2/28/Numbuh_2.jpg",
+        likes: rand(1..100),
         show_id: 2
     },
     {
@@ -88,7 +96,8 @@ Character.create([
         species: "human",
         special_feature: "oversized dress",
         color: "green",
-        image: "https://knd.fandom.com/wiki/Numbuh_3?file=Numbuh_3.jpg",
+        image: "https://static.wikia.nocookie.net/knd/images/7/70/Numbuh_3.jpg",
+        likes: rand(1..100),
         show_id: 2
     },
     {
@@ -96,7 +105,8 @@ Character.create([
         species: "human",
         special_feature: "bowl cut",
         color: "orange",
-        image: "https://knd.fandom.com/wiki/Numbuh_4?file=Numbuh_4.jpg",
+        image: "https://static.wikia.nocookie.net/knd/images/a/a9/Numbuh_4.jpg",
+        likes: rand(1..100),
         show_id: 2
     },
     {
@@ -104,7 +114,8 @@ Character.create([
         species: "human",
         special_feature: "red hat",
         color: "dark blue",
-        image: "https://knd.fandom.com/wiki/Numbuh_5?file=Numbuh_5.jpg",
+        image: "https://static.wikia.nocookie.net/knd/images/1/10/Numbuh_5.jpg",
+        likes: rand(1..100),
         show_id: 2
     }
 

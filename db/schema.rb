@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_15_041308) do
+ActiveRecord::Schema.define(version: 2021_06_19_173045) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_06_15_041308) do
     t.string "special_feature"
     t.string "color"
     t.string "image"
+    t.integer "likes", default: 0
     t.integer "show_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

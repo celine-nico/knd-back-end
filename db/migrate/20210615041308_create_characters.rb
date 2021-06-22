@@ -6,6 +6,7 @@ class CreateCharacters < ActiveRecord::Migration[6.1]
       t.string :special_feature
       t.string :color
       t.string :image
+      t.integer :likes
       t.belongs_to :show, null: false, foreign_key: true
 
       t.timestamps

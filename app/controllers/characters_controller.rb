@@ -3,7 +3,12 @@ class CharactersController < ApplicationController
 
   # GET /characters
   def index
-    @characters = Character.all
+    if params[:show_id]
+      @show = Show.find_by_id(params[:show_id])
+      @characters = @show.characters
+    else 
+      @characters = Character.all
+    end 
 
     render json: @characters
   end
@@ -46,6 +51,6 @@ class CharactersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def character_params
-      params.require(:character).permit(:name, :number, :gender, :color, :show_id)
+      params.require(:character).permit(:name, :number, :gender, :color, :likes, :show_id)
     end
 end
